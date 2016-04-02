@@ -50,7 +50,7 @@ def run_bbox(verbose=False):
 	while has_next:
 		state = bbox.get_state()
 		action = get_action_by_state(state)
-		print bbox.get_score()
+		#print bbox.get_score()
 		has_next = bbox.do_action(action)
  
 	bbox.finish(verbose=1)
